@@ -1,7 +1,7 @@
 site_name: Hero Dungeon
 site_description: "Hero Dungeon - An endless dungeon auto crawler with evolutionary heroes."
 # site_url:
-repo_url: "https://github.com/Germano123"
+repo_url: "https://github.com/Germano123/python-hero-dungeon.git"
 
 nav:
   - Home: index.md
