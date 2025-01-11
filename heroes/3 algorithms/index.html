@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Algorithms - Hero Dungeon</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Hero Dungeon</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Heroes</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../1%20intro/" class="dropdown-item">Introduction</a>
+</li>
+                                    
+<li>
+    <a href="../2%20attributes/" class="dropdown-item">Attributes</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Algorithms</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Dungeon</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../dungeon/1%20mechanics/" class="dropdown-item">Mechanics</a>
+</li>
+                                    
+<li>
+    <a href="../../dungeon/2%20combat/" class="dropdown-item">Combat</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Evolution</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../evolution/1%20intro/" class="dropdown-item">Introduction</a>
+</li>
+                                    
+<li>
+    <a href="../../evolution/2%20fitness/" class="dropdown-item">Fitness</a>
+</li>
+                                    
+<li>
+    <a href="../../evolution/3%20crossover_mutation/" class="dropdown-item">Crossover and Mutation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Interface</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../interface/1%20hud_menus/" class="dropdown-item">HUD and Menus</a>
+</li>
+                                    
+<li>
+    <a href="../../interface/2%20heroes/" class="dropdown-item">Hero Representation</a>
+</li>
+                                    
+<li>
+    <a href="../../interface/3%20generations/" class="dropdown-item">Hero Generations</a>
+</li>
+                                    
+<li>
+    <a href="../../interface/4 dungeon.md" class="dropdown-item">Dungeon Interface</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../installation/" class="nav-link">Installation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../contribution/" class="nav-link">Contribution</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../2%20attributes/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../dungeon/1%20mechanics/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/Germano123/python-hero-dungeon.git/edit/master/docs/heroes/3 algorithms.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#hero-evolution-algorithms" class="nav-link">Hero Evolution Algorithms</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#the-evolutionary-process" class="nav-link">The Evolutionary Process</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#generational-advancement" class="nav-link">Generational Advancement</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#whats-next" class="nav-link">What's Next?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="hero-evolution-algorithms">Hero Evolution Algorithms</h1>
+<p>The core of the <strong>Hero Evolution Algorithm Project</strong> lies in the evolutionary process that creates stronger, more adaptive heroes over time. By applying principles inspired by biological evolution, the system refines each generation of heroes to maximize their potential.</p>
+<h2 id="the-evolutionary-process">The Evolutionary Process</h2>
+<p>The evolution of heroes is driven by three main components:</p>
+<h3 id="1-fitness-evaluation">1. <strong>Fitness Evaluation</strong></h3>
+<ul>
+<li>Each hero is assigned a <strong>fitness score</strong> based on their performance in the dungeon.</li>
+<li>Fitness considers attributes like Strength, Dexterity, Vigor, and their success in battles.</li>
+<li>Heroes with higher fitness are more likely to contribute to the next generation.</li>
+</ul>
+<h3 id="2-selection">2. <strong>Selection</strong></h3>
+<ul>
+<li>The system selects the best-performing heroes as "parents" for the next generation.</li>
+<li>Selection methods prioritize diversity while favoring high-fitness individuals to avoid stagnation.</li>
+</ul>
+<h3 id="3-crossover-and-mutation">3. <strong>Crossover and Mutation</strong></h3>
+<ul>
+<li><strong>Crossover</strong>: Combines traits from two parent heroes to create new offspring. This introduces variety while preserving strengths from previous generations.</li>
+<li><strong>Mutation</strong>: Randomly alters certain attributes of offspring heroes. This helps introduce novel traits and prevents the population from becoming too homogeneous.</li>
+</ul>
+<h2 id="generational-advancement">Generational Advancement</h2>
+<p>After creating a new generation of heroes:</p>
+<ul>
+<li>The new heroes are evaluated in the dungeon to determine their fitness.</li>
+<li>The evolutionary cycle continues, with each generation striving to improve on the last.</li>
+<li>Over time, the process aims to produce heroes capable of conquering even the toughest dungeon challenges.</li>
+</ul>
+<h2 id="whats-next">What's Next?</h2>
+<p>Discover how these heroes interact with the dungeon's mechanics in the <strong><a href="../../dungeon/1%20mechanics/">Dungeon Mechanics</a></strong> section, or revisit the <strong><a href="../2%20attributes/">Attributes</a></strong> to see what makes each hero unique.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
