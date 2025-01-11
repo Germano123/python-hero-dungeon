@@ -1,5 +1,5 @@
-site_name: Hero Dungeon
-site_description: "Hero Dungeon - An endless dungeon auto crawler with evolutionary heroes."
+site_name: Hero Evolution
+site_description: "Hero Evolution - An endless dungeon auto crawler with evolutionary heroes."
 # site_url:
 repo_url: "https://github.com/Germano123/python-hero-dungeon.git"
 
@@ -21,5 +21,6 @@ nav:
       - Hero Representation: interface/2 heroes.md
       - Hero Generations: interface/3 generations.md
       - Dungeon Interface: interface/4 dungeon.md
-  - Installation: installation.md
+  - Installation: installation/1 installation.md
   - Contribution: contribution.md
+  - Roadmap: roadmap.md
