@@ -15,7 +15,7 @@
 ### Keywords
 [ Game Development, Procedural Generation, Evolutionary Algorithms, Dungeon Crawler, Turn-based Combat, Genetic Programming, Python, PyGame, Roguelike, Idle Game]
 
-# Hero Dungeon: A Quest for the Ultimate Hero
+# Hero Evolution: Infinite Dungeon
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -34,7 +34,7 @@
 
 ## Introduction
 
-**Hero Dungeon** is an idle-style game that simulates an infinite dungeon spawning endless hordes of monsters. Players manage heroes who explore the dungeon, gain experience, and fight progressively stronger enemies. The ultimate goal is to identify and create the special hero from a future generation capable of defending against the infinite horde of monsters.
+**Hero Evolution** is an idle-style game that simulates an infinite dungeon spawning endless hordes of monsters. Players manage heroes who explore the dungeon, gain experience, and fight progressively stronger enemies. The ultimate goal is to identify and create the special hero from a future generation capable of defending against the infinite horde of monsters.
 
 This project explores procedural mechanics, evolutionary algorithms, and RPG gameplay, making it an ideal playground for both developers and game enthusiasts interested in algorithm-driven games.
 
@@ -147,7 +147,7 @@ Developers can extend the project by:
 
 ---
 
-**Hero Dungeon** is an ongoing project with endless potential. Join the quest to create the ultimate hero and defend the world against the infinite horde of monsters!
+**Hero Evolution** is an ongoing project with endless potential. Join the quest to create the ultimate hero and defend the world against the infinite horde of monsters!
 
 ## Star History
 

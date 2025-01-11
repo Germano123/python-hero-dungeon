@@ -45,7 +45,7 @@ If you'd like to test the evolutionary algorithm independently from the game, fo
 1.Navigate to the evolution directory or wherever the algorithm files are stored
 
 ```bash
-cd src/evolution
+cd evo
 ```
 
 2.Run the algorithm

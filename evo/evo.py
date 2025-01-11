@@ -154,23 +154,3 @@ def select_parents(heroes: list[Hero]) -> tuple[Hero, Hero]:
     
     # Seleciona os dois melhores heróis como pais.
     return heroes_sorted[0], heroes_sorted[1]
-
-# Gerar uma população inicial de heróis
-initial_min_val = 0
-initial_max_val = 20
-heroes = [generate_random_hero(initial_min_val, initial_max_val) for _ in range(10)]
-
-# Exibir a população inicial com suas pontuações de fitness
-print("População inicial:")
-for hero in heroes:
-    print(f"{hero} - Fitness: {fitness(hero)}")
-
-# Gerar a próxima geração com mutação e um número específico de heróis
-population_size = 5  # Definir o número de heróis na próxima geração
-next_gen = generate_next_generation(heroes, mutation_rate=0.2, population_size=population_size)
-
-# Exibir a próxima geração
-print("\nPróxima geração:")
-for hero in next_gen:
-    print(f"{hero} - Fitness: {fitness(hero)}")
-
