@@ -1,3 +1,20 @@
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
+![Pygame](https://img.shields.io/badge/Pygame-2.1%2B-green?logo=python&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Version](https://img.shields.io/badge/version-0.0.1-yellow)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+![Made with MkDocs](https://img.shields.io/badge/Made%20with-MkDocs-darkgreen?logo=read-the-docs)
+
+![Infinite Dungeon](https://img.shields.io/badge/Dungeon-Infinite-red)
+![Heroes Evolution](https://img.shields.io/badge/Heroes-Evolution-purple)
+![AI Algorithms](https://img.shields.io/badge/AI-Evolutionary-orange)
+
+### Keywords
+[ Game Development, Procedural Generation, Evolutionary Algorithms, Dungeon Crawler, Turn-based Combat, Genetic Programming, Python, PyGame, Roguelike, Idle Game]
+
 # Hero Dungeon: A Quest for the Ultimate Hero
 
 ## Table of Contents
@@ -131,3 +148,7 @@ Developers can extend the project by:
 ---
 
 **Hero Dungeon** is an ongoing project with endless potential. Join the quest to create the ultimate hero and defend the world against the infinite horde of monsters!
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Germano123/python-hero-dungeon.git&type=Date)](https://star-history.com/#Germano123/python-hero-dungeon.git&Date)
