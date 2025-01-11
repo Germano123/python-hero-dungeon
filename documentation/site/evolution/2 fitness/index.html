@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Fitness - Hero Dungeon</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Hero Dungeon</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Heroes</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../heroes/1%20intro/" class="dropdown-item">Introduction</a>
+</li>
+                                    
+<li>
+    <a href="../../heroes/2%20attributes/" class="dropdown-item">Attributes</a>
+</li>
+                                    
+<li>
+    <a href="../../heroes/3%20algorithms/" class="dropdown-item">Algorithms</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Dungeon</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../dungeon/1%20mechanics/" class="dropdown-item">Mechanics</a>
+</li>
+                                    
+<li>
+    <a href="../../dungeon/2%20combat/" class="dropdown-item">Combat</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Evolution</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../1%20intro/" class="dropdown-item">Introduction</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Fitness</a>
+</li>
+                                    
+<li>
+    <a href="../3%20crossover_mutation/" class="dropdown-item">Crossover and Mutation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Interface</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../interface/1%20hud_menus/" class="dropdown-item">HUD and Menus</a>
+</li>
+                                    
+<li>
+    <a href="../../interface/2%20heroes/" class="dropdown-item">Hero Representation</a>
+</li>
+                                    
+<li>
+    <a href="../../interface/3%20generations/" class="dropdown-item">Hero Generations</a>
+</li>
+                                    
+<li>
+    <a href="../../interface/4 dungeon.md" class="dropdown-item">Dungeon Interface</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../installation/" class="nav-link">Installation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../contribution/" class="nav-link">Contribution</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../1%20intro/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../3%20crossover_mutation/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/Germano123/edit/master/docs/evolution/2 fitness.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#fitness-evaluation" class="nav-link">Fitness Evaluation</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#what-is-fitness" class="nav-link">What is Fitness?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#fitness-criteria" class="nav-link">Fitness Criteria</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#fitness-formula" class="nav-link">Fitness Formula</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#example-calculation" class="nav-link">Example Calculation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#adapting-the-formula" class="nav-link">Adapting the Formula</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#whats-next" class="nav-link">What’s Next?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="fitness-evaluation">Fitness Evaluation</h1>
+<p>Fitness evaluation is the cornerstone of the evolution system, determining which heroes are most suited to face the challenges of the dungeon. By quantifying a hero's performance, we identify the strongest candidates to carry their traits into the next generation.</p>
+<h2 id="what-is-fitness">What is Fitness?</h2>
+<p>Fitness is a numerical score that reflects a hero's overall effectiveness in combat, survivability, and progression within the dungeon. This score is used to:</p>
+<ol>
+<li><strong>Rank Heroes</strong>: Identify which heroes performed best during their trials.</li>
+<li><strong>Guide Selection</strong>: Determine which heroes will become parents for the next generation.</li>
+<li><strong>Measure Progress</strong>: Track improvements across generations.</li>
+</ol>
+<h2 id="fitness-criteria">Fitness Criteria</h2>
+<p>A hero’s fitness score is calculated using multiple factors:</p>
+<h3 id="1-dungeon-progression">1. Dungeon Progression</h3>
+<ul>
+<li><strong>Definition</strong>: The number of floors a hero successfully clears before being defeated.</li>
+<li><strong>Weight</strong>: Heavily weighted since progression reflects adaptability and strength.</li>
+</ul>
+<h3 id="2-combat-performance">2. Combat Performance</h3>
+<ul>
+<li><strong>Damage Efficiency</strong>: The ratio of damage dealt to damage taken.</li>
+<li><strong>Consistency</strong>: Ability to sustain performance across multiple encounters.</li>
+<li><strong>Critical Hits</strong>: The frequency and impact of critical strikes (future implementation).</li>
+</ul>
+<h3 id="3-level-advancement">3. Level Advancement</h3>
+<ul>
+<li><strong>Experience Points (XP)</strong>: Gained by defeating enemies; used to calculate the hero’s level.</li>
+<li><strong>Level Growth</strong>: Heroes that reach higher levels during their dungeon run are rewarded with higher fitness scores.</li>
+</ul>
+<h2 id="fitness-formula">Fitness Formula</h2>
+<p>The fitness score is calculated using the following formula:</p>
+<pre><code>Fitness = (Dungeon Progression * Weight1) + (Damage Efficiency * Weight2) + (Level Growth * Weight3)
+</code></pre>
+<h3 id="example-weights">Example Weights:</h3>
+<ul>
+<li>Dungeon Progression: 50%</li>
+<li>Damage Efficiency: 30%</li>
+<li>Level Growth: 20%</li>
+</ul>
+<p>These weights can be adjusted to prioritize specific traits based on gameplay goals.</p>
+<h2 id="example-calculation">Example Calculation</h2>
+<ol>
+<li><strong>Hero Performance</strong>:</li>
+<li>Floors Cleared: 15</li>
+<li>Damage Dealt: 1000</li>
+<li>Damage Taken: 250</li>
+<li>
+<p>Level Reached: 5</p>
+</li>
+<li>
+<p><strong>Metrics</strong>:</p>
+</li>
+<li>Dungeon Progression = 15</li>
+<li>Damage Efficiency = 1000 / 250 = 4.0</li>
+<li>
+<p>Level Growth = 5</p>
+</li>
+<li>
+<p><strong>Formula Application</strong>:</p>
+</li>
+</ol>
+<p><code>Fitness = (15 * 0.5) + (4.0 * 0.3) + (5 * 0.2)
+          = 7.5 + 1.2 + 1.0
+          = 9.7</code></p>
+<ol>
+<li><strong>Fitness Score</strong>: 9.7</li>
+</ol>
+<h2 id="adapting-the-formula">Adapting the Formula</h2>
+<p>The formula can be tailored to fit different priorities:</p>
+<ul>
+<li><strong>Combat-Focused Heroes</strong>: Increase the weight for Damage Efficiency.</li>
+<li><strong>Survival-Focused Heroes</strong>: Emphasize Dungeon Progression.</li>
+<li><strong>Balanced Approach</strong>: Maintain even weights across all criteria.</li>
+</ul>
+<h2 id="whats-next">What’s Next?</h2>
+<p>Learn about the next stage of hero evolution: <strong><a href="../3%20crossover_mutation/">Crossover and Mutation</a></strong>.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

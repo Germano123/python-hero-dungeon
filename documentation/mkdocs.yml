@@ -1,0 +1,25 @@
+site_name: Hero Dungeon
+site_description: "Hero Dungeon - An endless dungeon auto crawler with evolutionary heroes."
+# site_url:
+repo_url: "https://github.com/Germano123"
+
+nav:
+  - Home: index.md
+  - Heroes:
+      - Introduction: heroes/1 intro.md
+      - Attributes: heroes/2 attributes.md
+      - Algorithms: heroes/3 algorithms.md
+  - Dungeon:
+      - Mechanics: dungeon/1 mechanics.md
+      - Combat: dungeon/2 combat.md
+  - Evolution:
+      - Introduction: evolution/1 intro.md
+      - Fitness: evolution/2 fitness.md
+      - Crossover and Mutation: evolution/3 crossover_mutation.md
+  - Interface:
+      - HUD and Menus: interface/1 hud_menus.md
+      - Hero Representation: interface/2 heroes.md
+      - Hero Generations: interface/3 generations.md
+      - Dungeon Interface: interface/4 dungeon.md
+  - Installation: installation.md
+  - Contribution: contribution.md
